@@ -13,7 +13,7 @@ namespace Game {
 
         Chess(account_name self): contract(self){}
 
-        //@abi action
+        //@abi action for setting status of the account
         void setstat(account_name account, string status);
     };
 
